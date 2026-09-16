@@ -308,6 +308,39 @@ if(isset($_GET['id']))
                                     <div class="col-md-12">
                                     
                                     <div class="card-block">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="card rounded-card">
+                                                    <div class="card-header">
+                                                        <h5 class="card-title">About Nashaty</h5>
+                                                    </div>
+                                                    <div class="card-block">
+                                                        <p class="m-b-0">Nashaty is a university student engagement platform designed to simplify communication, participation, and digital administration inside the campus community.</p>
+                                                        <p class="m-b-0">The system helps students follow events, join competitions, take part in elections, send messages, ask questions, and stay connected with the academic community in one place.</p>
+                                                        <div class="row m-t-20">
+                                                            <div class="col-md-4">
+                                                                <div class="alert alert-primary">
+                                                                    <strong><i class="icofont icofont-calendar"></i> Timeline</strong>
+                                                                    <p class="m-b-0">View student activities and important updates.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="alert alert-success">
+                                                                    <strong><i class="icofont icofont-trophy"></i> Competitions</strong>
+                                                                    <p class="m-b-0">Discover, register, and manage campus competitions.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="alert alert-info">
+                                                                    <strong><i class="icofont icofont-numbered"></i> Elections</strong>
+                                                                    <p class="m-b-0">Participate in votes and election processes transparently.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     <div class="row users-card">
                                     <div class="col-lg-4 col-xl-4 col-md-6">
                                     
