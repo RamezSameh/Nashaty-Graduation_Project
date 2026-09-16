@@ -1,0 +1,163 @@
+.pcoded .pcoded-navbar[navbar-theme=theme4] {
+    background: #596BC7;
+    opacity: 3;
+}
+
+.pcoded .pcoded-navbar[navbar-theme=theme4] .main-menu 
+{
+    position: fixed;
+}
+
+.pcoded .pcoded-navbar[navbar-theme=theme4] .pcoded-item>li>a:hover 
+{
+    color:white;
+    background-color: #596BC7;                  
+}
+ .msg-send[navbar-theme=theme5] textarea  :focus
+{
+    border-color:#3C4FB1;
+}
+
+.nav-tabs .slide 
+{
+    background: #3C4FB1;
+    width: calc(100%/4);
+    height: 4px;
+    position: absolute;
+    -webkit-transition: left .3s ease-out;
+    transition: left .3s ease-out;
+    bottom: 0;
+}
+
+.nav-tabs li a :active{
+    color: #3C4FB1;
+}
+
+.pcoded[theme-layout=vertical] .pcoded-navbar .pcoded-item[item-border=true][item-border-style=none] li i {
+    font-size: 18px;
+}
+.header-navbar .navbar-wrapper .navbar-logo a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.card-block .p-relative {
+    border-radius:16px;
+    box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card
+{
+    border-radius:16px;
+}
+
+.tab-header
+{
+    border-radius:16px;
+}
+
+.tab-header
+{
+
+    border-radius: 13px;
+}
+
+.md-tabs .nav-item.open .nav-link, .md-tabs .main-menu .main-menu-content .nav-item .tree-1 a.open .nav-link, .main-menu .main-menu-content .nav-item .tree-1 .md-tabs a.open .nav-link, .md-tabs .main-menu .main-menu-content .nav-item .tree-2 a.open .nav-link, .main-menu .main-menu-content .nav-item .tree-2 .md-tabs a.open .nav-link, .md-tabs .main-menu .main-menu-content .nav-item .tree-3 a.open .nav-link, .main-menu .main-menu-content .nav-item .tree-3 .md-tabs a.open .nav-link, .md-tabs .main-menu .main-menu-content .nav-item .tree-4 a.open .nav-link, .main-menu .main-menu-content .nav-item .tree-4 .md-tabs a.open .nav-link, .md-tabs .nav-item.open .nav-link:focus, .md-tabs .main-menu .main-menu-content .nav-item .tree-1 a.open .nav-link:focus, .main-menu .main-menu-content .nav-item .tree-1 .md-tabs a.open .nav-link:focus, .md-tabs .main-menu .main-menu-content .nav-item .tree-2 a.open .nav-link:focus, .main-menu .main-menu-content .nav-item .tree-2 .md-tabs a.open .nav-link:focus, .md-tabs .main-menu .main-menu-content .nav-item .tree-3 a.open .nav-link:focus, .main-menu .main-menu-content .nav-item .tree-3 .md-tabs a.open .nav-link:focus, .md-tabs .main-menu .main-menu-content .nav-item .tree-4 a.open .nav-link:focus, .main-menu .main-menu-content .nav-item .tree-4 .md-tabs a.open .nav-link:focus, .md-tabs .nav-item.open .nav-link:hover, .md-tabs .main-menu .main-menu-content .nav-item .tree-1 a.open .nav-link:hover, .main-menu .main-menu-content .nav-item .tree-1 .md-tabs a.open .nav-link:hover, .md-tabs .main-menu .main-menu-content .nav-item .tree-2 a.open .nav-link:hover, .main-menu .main-menu-content .nav-item .tree-2 .md-tabs a.open .nav-link:hover, .md-tabs .main-menu .main-menu-content .nav-item .tree-3 a.open .nav-link:hover, .main-menu .main-menu-content .nav-item .tree-3 .md-tabs a.open .nav-link:hover, .md-tabs .main-menu .main-menu-content .nav-item .tree-4 a.open .nav-link:hover, .main-menu .main-menu-content .nav-item .tree-4 .md-tabs a.open .nav-link:hover, .md-tabs .nav-link.active, .md-tabs .nav-link.active:focus, .md-tabs .nav-link.active:hover {
+    color: white;
+    border: none;
+    background-color: #1a6bbc;
+    border-radius: 0px;
+    
+}
+
+
+.widget-profile-card-2 img
+{
+margin-top:-5px;
+border-top-right-radius: 16px;
+border-top-left-radius: 16px;
+}
+
+
+ .widget-profile-card-2:hover
+{
+ 
+ box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+ cursor: pointer;
+ border:2px solid darkgrey ;
+ background-color: #4680ff;
+ color:white;
+}
+
+.pcoded .pcoded-navbar[active-item-theme=theme5] .pcoded-item>li.active>a:before {
+    border-left-color:white!important;
+}
+
+#reactid:single-button
+{
+    color:red;
+}
+
+
+.chat-reply-box {
+    background-color: #fff;
+    position: relative;
+    bottom: 42px;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #ccc;
+}
+.chat-menu-reply {
+    background: #4680ff;
+    margin-right: 10px;
+}
+
+.right-icon-control .form-icon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+}
+.chat-menu-reply:before {
+    position: absolute;
+    top: 20px;
+    right: -14px;
+    width: 0;
+    height: 0;
+    content: '';
+    border: 8px solid transparent;
+    border-left-color: #4680ff;
+}
+.btn.btn-icon {
+    border-radius: 0;
+    width: 40px;
+    line-height: 23px;
+    height: 37px;
+    padding: 3px;
+    text-align: center;
+    font-size: 18px;
+}
+/****************************************/
+chat-inner-header {
+    border-top-left-radius: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+
+.showChat_inner
+{
+    border-left: none;
+    border-radius:16px;
+    box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.alert .alrtdngr
+{
+    margin-bottom:20px;
+    bottom: 30px;
+}
